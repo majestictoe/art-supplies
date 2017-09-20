@@ -58,12 +58,19 @@ public class Main {
 	basics.number = 5;
 	basics.shape = "triangles";
 
-
+	Paints newton = new Paints();
+	newton.name = "Winsor and Newton Galeria Acrylic Paints";
+	newton.number = 1;
+	newton.shape = "triangles";
 
 	micron.list();
 	tombow.list();
 	PITT.list();
 	koh.list();
 	fan.list();
+	folkart.list();
+	apple.list();
+	basics.list();
+	newton.list();
     }
 }
