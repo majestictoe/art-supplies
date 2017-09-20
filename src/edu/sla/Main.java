@@ -43,6 +43,23 @@ public class Main {
 	fan.feature = "watercolors";
 	fan.broken = 0;
 
+	Paints folkart = new Paints();
+	folkart.name = "Folkart Paints";
+	folkart.number = 4;
+	folkart.shape = "cylinders";
+
+	Paints apple = new Paints();
+	apple.name = "Apple Barrel Paints";
+	apple.number = 4;
+	apple.shape = "cylinders";
+
+	Paints basics = new Paints();
+	basics.name = "Liquitex Acrylic Color Basics Paints";
+	basics.number = 5;
+	basics.shape = "triangles";
+
+
+
 	micron.list();
 	tombow.list();
 	PITT.list();
