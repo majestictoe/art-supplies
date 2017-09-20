@@ -37,7 +37,11 @@ public class Main {
 
 	//finish
 	Pencils fan = new Pencils();
-	fan.name = "";
+	fan.name = "Fantasia Watercolor Pencils Premium";
+	fan.number = 24;
+	fan.colors = 24;
+	fan.feature = "watercolors";
+	fan.broken = 0;
 
 	micron.list();
 	System.out.println("");
