@@ -16,5 +16,6 @@ public class Markers {
         if (samesize==1) {
             System.out.println("They vary in size.");
         }
+        System.out.println("");
         }
     }

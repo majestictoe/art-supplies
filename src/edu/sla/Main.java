@@ -44,10 +44,9 @@ public class Main {
 	fan.broken = 0;
 
 	micron.list();
-	System.out.println("");
 	tombow.list();
-	System.out.println("");
 	PITT.list();
-	System.out.println("");
+	koh.list();
+	fan.list();
     }
 }

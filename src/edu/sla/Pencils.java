@@ -9,5 +9,6 @@ public class Pencils {
     void list(){
         System.out.println("I own " + number + " " + name + " in " + colors + " different colors.");
         System.out.println("They are "+ feature + " and " + broken + " are broken.");
+        System.out.println("");
     }
 }
