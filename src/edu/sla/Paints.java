@@ -7,6 +7,6 @@ public class Paints {
     void list() {
         System.out.println("I own " + number + " " + name + ".");
         System.out.println("They are shaped like " + shape + ".");
-        System.out.println("");
+        System.out.println(" ");
     }
 }
