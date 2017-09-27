@@ -10,7 +10,10 @@ class Pack {
         number = nu;
         colors = co;
     }
-    String getName(){return name;}
-    int getNumber(){return number;}
-    int getColors(){return colors;}
+    //String getName(){return name;}
+    //int getNumber(){return number;}
+    //int getColors(){return colors;}
+    void slist(){
+        System.out.println("I own " + number + " " + name + " in " + colors + " different colors.");
+    }
 }

@@ -11,7 +11,7 @@ class Pencils extends Pack{
     }
 
     void list(){
-        System.out.println("I own " + getNumber() + " " + getName() + " in " + getColors() + " different colors.");
+        super.slist();
         System.out.println("They are "+ feature + " and " + broken + " are broken.");
         System.out.println("");
     }

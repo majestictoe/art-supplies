@@ -13,7 +13,7 @@ class Markers extends Pack{
     }
 
     void list(){
-        System.out.println("I own " + getNumber() + " " + getName() + " in " + getColors() + " different colors.");
+       super.slist();
         System.out.println("They are " + tip + " and I use them for " + purpose + ".");
         if (samesize==0) {
             System.out.println("They are all the same size.");

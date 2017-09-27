@@ -9,7 +9,7 @@ class Paints extends Pack{
     }
 
     void list() {
-        System.out.println("I own " + getNumber() + " " + getName() + " in " + getColors() + " different colors.");
+        super.slist();
         System.out.println("They are shaped like " + shape + ".");
         System.out.println(" ");
     }
