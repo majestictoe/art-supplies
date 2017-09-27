@@ -4,64 +4,23 @@ public class Main {
 
     public static void main(String[] args) {
 
-	Markers PITT = new Markers();
-	PITT.name = "Faber Castell PITT Artist Pens";
-	PITT.number = 48;
-	PITT.colors = 38;
-	PITT.tip = "brush tip";
-	PITT.purpose = "coloring and outlining";
-	PITT.samesize = 1;
+	Markers PITT = new Markers("Faber Castell PITT Artist Pens",48,38,"brush tip","coloring and outlining",1);
 
-	Markers tombow = new Markers();
-	tombow.name = "Tombow Acid Free Markers";
-	tombow.number = 10;
-	tombow.colors = 9;
-	tombow.tip = "brush and nib tip";
-	tombow.purpose = "coloring in grayscale";
-	tombow.samesize = 0;
+	Markers tombow = new Markers("Tombow Acid Free Markers",10,9,"brush and nib tip","coloring in grayscale",0);
 
-	Markers micron = new Markers();
-	micron.name = "Micron Pens";
-	micron.number = 7;
-	micron.colors = 0;
-	micron.tip = "nib tip";
-	micron.purpose = "outlining";
-	micron.samesize = 1;
+	Markers micron = new Markers("Micron Pens",7,0,"nib tip","outlining",1);
 
-	Pencils koh = new Pencils();
-	koh.name = "Koh-I-Noor Woodless Coloured Pencils";
-	koh.number = 24;
-	koh.colors = 24;
-	koh.feature = "woodless";
-	koh.broken = 2;
+	Pencils koh = new Pencils("Koh-I-Noor Woodless Coloured Pencils",24,24,"woodless",2);
 
-	//finish
-	Pencils fan = new Pencils();
-	fan.name = "Fantasia Watercolor Pencils Premium";
-	fan.number = 24;
-	fan.colors = 24;
-	fan.feature = "watercolors";
-	fan.broken = 0;
+	Pencils fan = new Pencils("Fantasia Watercolor Pencils Premium",24,24,"watercolors",0);
 
-	Paints folkart = new Paints();
-	folkart.name = "Folkart Paints";
-	folkart.number = 4;
-	folkart.shape = "cylinders";
+	Paints folkart = new Paints("Folkart Paints",4,4,"cylinders");
 
-	Paints apple = new Paints();
-	apple.name = "Apple Barrel Paints";
-	apple.number = 4;
-	apple.shape = "cylinders";
+	Paints apple = new Paints("Apple Barrel Paints",4,4,"cylinders");
 
-	Paints basics = new Paints();
-	basics.name = "Liquitex Acrylic Color Basics Paints";
-	basics.number = 5;
-	basics.shape = "triangles";
+	Paints basics = new Paints("Liquitex Acrylic Color Basics Paints",5,5,"triangles");
 
-	Paints newton = new Paints();
-	newton.name = "Winsor and Newton Galeria Acrylic Paints";
-	newton.number = 1;
-	newton.shape = "triangles";
+	Paints newton = new Paints("Winsor and Newton Galeria Acrylic Paints",1,1,"triangles");
 
 	micron.list();
 	tombow.list();
