@@ -1,6 +1,6 @@
 package edu.sla;
 
-public class Pencils {
+class Pencils {
     int number;
     int colors;
     String feature;

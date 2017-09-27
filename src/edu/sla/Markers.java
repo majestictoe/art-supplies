@@ -1,14 +1,19 @@
 package edu.sla;
 
-public class Markers {
-    String name;
-    int number;
-    int colors;
+class Markers extends Pack{
     String tip;
     String purpose;
     int samesize;
+
+    Markers(String na, int nu, int co, String ti, String pu, int sasi) {
+        super(na, nu, co);
+        tip = ti;
+        purpose = pu;
+        samesize = sasi;
+    }
+
     void list(){
-        System.out.println("I own " + number + " " + name + " in " + colors + " different colors.");
+        System.out.println("I own " + getNumber() + " " + getName() + " in " + getColors() + " different colors.");
         System.out.println("They are " + tip + " and I use them for " + purpose + ".");
         if (samesize==0) {
             System.out.println("They are all the same size.");
