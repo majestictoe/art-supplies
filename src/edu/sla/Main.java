@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-	Markers PITT = new Markers("Faber Castell PITT Artist Pens",48,38,"brush tip","coloring and outlining",1);
+	Markers pitt = new Markers("Faber Castell PITT Artist Pens",48,38,"brush tip","coloring and outlining",1);
 
 	Markers tombow = new Markers("Tombow Acid Free Markers",10,9,"brush and nib tip","coloring in grayscale",0);
 
@@ -14,7 +14,7 @@ public class Main {
 
 	Pencils fan = new Pencils("Fantasia Watercolor Pencils Premium",24,24,"watercolors",0);
 
-	Paints folkart = new Paints("Folkart Paints",4,4,"cylinders");
+	Paints folkArt = new Paints("Folkart Paints",4,4,"cylinders");
 
 	Paints apple = new Paints("Apple Barrel Paints",4,4,"cylinders");
 
@@ -24,10 +24,10 @@ public class Main {
 
 	micron.list();
 	tombow.list();
-	PITT.list();
+	pitt.list();
 	koh.list();
 	fan.list();
-	folkart.list();
+	folkArt.list();
 	apple.list();
 	basics.list();
 	newton.list();
