@@ -3,7 +3,7 @@ package edu.sla;
 public class Main {
 
     public static void main(String[] args) {
-		KitInstructions a = new KitInstructions();
-		a.ret();
+		Kit a = new Kit();
+		a.retFull();
     }
 }
